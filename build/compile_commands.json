@@ -1,0 +1,32 @@
+[
+  {
+    "directory": "/home/berk/Sandbox/netwave/build",
+    "command": "valac -C --debug --debug --pkg gtk+-3.0 --color=always --directory meson-out/25a6634@@com.github.digiberk.netwave@exe --basedir ../src ../src/Main.vala ../src/Application.vala ../src/Widgets/Window.vala ../src/Widgets/HeaderBar.vala",
+    "file": "../src/Main.vala",
+    "output": "meson-out/25a6634@@com.github.digiberk.netwave@exe/Main.c"
+  },
+  {
+    "directory": "/home/berk/Sandbox/netwave/build",
+    "command": "ccache cc -Imeson-out/25a6634@@com.github.digiberk.netwave@exe -Isrc -I../src -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -I/usr/include/gio-unix-2.0 -I/usr/include/libdrm -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread -MD -MQ 'meson-out/25a6634@@com.github.digiberk.netwave@exe/meson-generated_Main.c.o' -MF 'meson-out/25a6634@@com.github.digiberk.netwave@exe/meson-generated_Main.c.o.d' -o 'meson-out/25a6634@@com.github.digiberk.netwave@exe/meson-generated_Main.c.o' -c 'meson-out/25a6634@@com.github.digiberk.netwave@exe/Main.c'",
+    "file": "meson-out/25a6634@@com.github.digiberk.netwave@exe/Main.c",
+    "output": "meson-out/25a6634@@com.github.digiberk.netwave@exe/meson-generated_Main.c.o"
+  },
+  {
+    "directory": "/home/berk/Sandbox/netwave/build",
+    "command": "ccache cc -Imeson-out/25a6634@@com.github.digiberk.netwave@exe -Isrc -I../src -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -I/usr/include/gio-unix-2.0 -I/usr/include/libdrm -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread -MD -MQ 'meson-out/25a6634@@com.github.digiberk.netwave@exe/meson-generated_Application.c.o' -MF 'meson-out/25a6634@@com.github.digiberk.netwave@exe/meson-generated_Application.c.o.d' -o 'meson-out/25a6634@@com.github.digiberk.netwave@exe/meson-generated_Application.c.o' -c 'meson-out/25a6634@@com.github.digiberk.netwave@exe/Application.c'",
+    "file": "meson-out/25a6634@@com.github.digiberk.netwave@exe/Application.c",
+    "output": "meson-out/25a6634@@com.github.digiberk.netwave@exe/meson-generated_Application.c.o"
+  },
+  {
+    "directory": "/home/berk/Sandbox/netwave/build",
+    "command": "ccache cc -Imeson-out/25a6634@@com.github.digiberk.netwave@exe -Isrc -I../src -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -I/usr/include/gio-unix-2.0 -I/usr/include/libdrm -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread -MD -MQ 'meson-out/25a6634@@com.github.digiberk.netwave@exe/meson-generated_Widgets_Window.c.o' -MF 'meson-out/25a6634@@com.github.digiberk.netwave@exe/meson-generated_Widgets_Window.c.o.d' -o 'meson-out/25a6634@@com.github.digiberk.netwave@exe/meson-generated_Widgets_Window.c.o' -c 'meson-out/25a6634@@com.github.digiberk.netwave@exe/Widgets/Window.c'",
+    "file": "meson-out/25a6634@@com.github.digiberk.netwave@exe/Widgets/Window.c",
+    "output": "meson-out/25a6634@@com.github.digiberk.netwave@exe/meson-generated_Widgets_Window.c.o"
+  },
+  {
+    "directory": "/home/berk/Sandbox/netwave/build",
+    "command": "ccache cc -Imeson-out/25a6634@@com.github.digiberk.netwave@exe -Isrc -I../src -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -I/usr/include/gio-unix-2.0 -I/usr/include/libdrm -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread -MD -MQ 'meson-out/25a6634@@com.github.digiberk.netwave@exe/meson-generated_Widgets_HeaderBar.c.o' -MF 'meson-out/25a6634@@com.github.digiberk.netwave@exe/meson-generated_Widgets_HeaderBar.c.o.d' -o 'meson-out/25a6634@@com.github.digiberk.netwave@exe/meson-generated_Widgets_HeaderBar.c.o' -c 'meson-out/25a6634@@com.github.digiberk.netwave@exe/Widgets/HeaderBar.c'",
+    "file": "meson-out/25a6634@@com.github.digiberk.netwave@exe/Widgets/HeaderBar.c",
+    "output": "meson-out/25a6634@@com.github.digiberk.netwave@exe/meson-generated_Widgets_HeaderBar.c.o"
+  }
+]
