@@ -1,7 +1,7 @@
+import os
 import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk, Gio
-import os
 
 class NetwaveWindow(Gtk.Window):
 
@@ -15,10 +15,12 @@ class NetwaveWindow(Gtk.Window):
         # create a headerbar
         header = Gtk.HeaderBar()
         header.set_show_close_button(True)
-        header.props.title = "Netwave" # The title for the headerbar
+        header.props.title="Netwave" # The title for the headerbar
+        header.props.subtitle="Under Construction"
+        
         self.set_titlebar(header) # sets the titlebar to be a headerbar
 
-        # make a menu button
+        ### make a menu button
         self.menuButton = Gtk.Button()
         self.menuButton.connect("clicked", self.on_button_clicked)
 
@@ -27,8 +29,22 @@ class NetwaveWindow(Gtk.Window):
 
         self.menuButton.add(image)
         header.pack_end(self.menuButton) # put it near window controls
+        
 
+        ## add another box
+        box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
+        Gtk.StyleContext.add_class(box.get_style_context(), "linked")
 
+        self.saveButton = Gtk.Button(label="Save")
+        box.add(self.saveButton)
+
+        self.clearButton = Gtk.Button(label="Clear")
+        box.add(self.clearButton)
+        
+        header.pack_start(box)
+        
+        self.add(Gtk.TextView())
+        
 
     # the button clicked is a widget type: print output
     def on_button_clicked(self, widget):
