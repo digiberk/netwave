@@ -24,7 +24,7 @@ class NetwaveWindow(Gtk.Window):
         self.menuButton = Gtk.Button()
         self.menuButton.connect("clicked", self.on_button_clicked)
 
-        icon = Gio.ThemedIcon(name="open-menu")
+        icon = Gio.ThemedIcon(name="open-menu-symbolic")
         image = Gtk.Image.new_from_gicon(icon, Gtk.IconSize.BUTTON)
 
         self.menuButton.add(image)
@@ -35,15 +35,22 @@ class NetwaveWindow(Gtk.Window):
         box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
         Gtk.StyleContext.add_class(box.get_style_context(), "linked")
 
-        self.saveButton = Gtk.Button(label="Save")
-        box.add(self.saveButton)
-
         self.clearButton = Gtk.Button(label="Clear")
         box.add(self.clearButton)
         
         header.pack_start(box)
         
-        self.add(Gtk.TextView())
+        grid = Gtk.Grid()
+        grid.set_column_spacing(5) # add some padding
+        self.add(grid)
+
+        self.entry = Gtk.Entry(placeholder_text="Enter an address")
+        self.pingButton = Gtk.Button(label="Ping")
+        self.outputField = Gtk.TextView()
+
+        grid.add(self.entry)
+        grid.attach(self.pingButton, 1, 0, 2, 1)
+        grid.add(self.outputField)
         
 
     # the button clicked is a widget type: print output
