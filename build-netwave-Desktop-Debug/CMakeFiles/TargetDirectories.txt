@@ -1,0 +1,4 @@
+/home/berk/🔨 Projects/netwave/qt/build-netwave-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/berk/🔨 Projects/netwave/qt/build-netwave-Desktop-Debug/CMakeFiles/netwave.dir
+/home/berk/🔨 Projects/netwave/qt/build-netwave-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/berk/🔨 Projects/netwave/qt/build-netwave-Desktop-Debug/CMakeFiles/netwave_autogen.dir
